@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Table 2</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+<header>
+    <h1>Table 1</h1>
+    <nav>
+        <a href="../index.html">Main Page</a>
+        <a href="table1.html">Table 1</a>
+    </nav>
+</header>
+<table class="table-two">
+    <tr>
+        <td colspan="2">1-2</td>
+        <td class="wide-cell">3</td>
+    </tr>
+    <tr>
+        <td class="narrow-cell">4</td>
+        <td rowspan="2" colspan="2">
+            <table class="table-two-nested">
+                <tr>
+                    <td>1</td>
+                    <td rowspan="3">2-5-8</td>
+                    <td rowspan="2" class="high-column">3-6</td>
+                </tr>
+                <tr>
+                    <td class="high-column" rowspan="2">4-7</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>7</td>
+    </tr>
+</table>
+</body>
+</html>

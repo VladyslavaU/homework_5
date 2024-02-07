@@ -1,0 +1,47 @@
+table {
+    border-color: black;
+    border-style: solid;
+    border-spacing: 0;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    height: 50px;
+    border-style: solid;
+    text-align: center;
+}
+
+.high-column {
+    height: 200px;
+}
+
+.table-one {
+    width: 75%;
+}
+
+.table-one td {
+    width: 33.33%;
+}
+
+.table-two {
+    width: 90%;
+}
+
+.wide-cell {
+    width: 60%;
+}
+
+.narrow-cell {
+    width: 28%;
+}
+
+.table-two-nested {
+    width: 80%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.table-two-nested td {
+    width: 33.33%;
+}
